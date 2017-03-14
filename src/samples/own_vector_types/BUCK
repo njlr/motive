@@ -1,0 +1,12 @@
+cxx_binary(
+  name = 'own_vector_types',
+  srcs = [
+    'own_vector_types.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:motive',
+  ],
+)

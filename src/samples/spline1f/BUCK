@@ -1,0 +1,12 @@
+cxx_binary(
+  name = 'spline1f',
+  srcs = [
+    'spline1f.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:motive',
+  ],
+)

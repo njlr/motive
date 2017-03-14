@@ -1,0 +1,7 @@
+{
+  "name": "motive",
+  "dependencies": {
+    "mathfu": "1.1.0",
+    "fplutil": "1.1.0"
+  }
+}

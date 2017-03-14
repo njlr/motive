@@ -1,0 +1,12 @@
+cxx_binary(
+  name = 'linear_processor',
+  srcs = [
+    'linear_processor.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:motive',
+  ],
+)

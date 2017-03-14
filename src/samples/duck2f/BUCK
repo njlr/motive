@@ -1,0 +1,12 @@
+cxx_binary(
+  name = 'duck2f',
+  srcs = [
+    'duck2f.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:motive',
+  ],
+)

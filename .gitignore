@@ -9,6 +9,7 @@ bin/*_test
 bin/*_sample
 *.bin
 *.a
+/build/
 
 # CMake files
 CMakeCache.txt
@@ -62,4 +63,9 @@ docs/html/
 docs/linklint_results/
 gen/
 
-
+# Buck
+/buck-out/
+/.buckd/
+/buckaroo/
+.buckconfig.local
+BUCKAROO_DEPS
